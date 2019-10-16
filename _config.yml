@@ -1,12 +1,12 @@
 # Site settings
-name: Xiang Guo's personal website
+name: Xiang Guo
 email: xg3kb@virginia.edu
 author: Xiang Guo
 url: https://github.com/XiangGuo1992/
-resume_site: https://github.com/XiangGuo1992/My_resume/blob/master/CV_XiangGuo_xg3kb.pdf
+resume_site: https://github.com/XiangGuo1992/My_resume/raw/master/CV_XiangGuo_xg3kb.pdf
 github: https://github.com/XiangGuo1992/
 baseurl: ""
-description: Actually, less is more!
+description: Hi there! Welcome to my personal website!
 meta_description: 康志华;个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
 motto: It's our wits that make us men.
 banner: 学而不思则罔，思而不学则殆。
