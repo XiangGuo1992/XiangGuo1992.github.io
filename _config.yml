@@ -1,27 +1,120 @@
-# Site settings
+# main text of home
 name: Xiang Guo
+bio: A Life-long Learner, sports fan and historical enthusiast.
+
+# twitter summary info
+description: A blog about technology and stuff related
+
+# if it's an external image, update below for true
+# better with square images
+external-image: false
+picture: assets/images/xiang_profile.jpg
+
+# If you want to include your resume, set to true
+# and specify source (external or local).
+resume: true
+resume-external: true
+resume-url: https://google.com/?q=my+resume
+
+url: https://xiangguo1992.github.io/
+# your url: http://USERNAME.github.io
+
+permalink: /:title/
+
+# To enable google analytics, supply your token below
+# analytics-google: 'UA-MYANALYTICS'
+
+# To enable piwik tracking, supply your url & site ID below
+# analytics-piwik-url: 'piwik.my-host.com'
+# analytics-piwik-id: 1
+
+# if you don't want comments in your posts, leave categories empty
+disqus:
+  shortname: VJnCZwC2cf # enter this from your disqus account
+  categories: [blog, project] # only show disqus for posts that have these categories
+
+# if you don't have any of social below, comment the line
+facebook: xiang.guo.77964
+twitter: guo_dy92
+# google: mygoogle
+instagram: xiang.guo_dy
+# pinterest: mypinterest
+linkedin: xiang-guo-603466126
+# youtube: myyoutube
+# spotify: myspotify
+github: XiangGuo1992
+# gitlab: mygitlab
+lastfm: Gusiev
+# stackoverflow: 7044681/mystackoverflow
+# quora: userquora
+# reddit: username
+# medium: medium
+# vimeo: myvimeo
+# lanyrd: mylanyrd
 email: xg3kb@virginia.edu
-author: Xiang Guo
-url: https://github.com/XiangGuo1992/
-resume_site: https://github.com/XiangGuo1992/My_resume/raw/master/CV_XiangGuo_xg3kb.pdf
-github: https://github.com/XiangGuo1992/
-baseurl: ""
-description: Hi there! Welcome to my personal website!
-meta_description: 康志华;个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
-motto: It's our wits that make us men.
-banner: 学而不思则罔，思而不学则殆。
 
-#permalink: /:categories/:year/:month/:day/:title/
-permalink: /:year/:month/:day/:title/
-paginate: 10
+authors:
+    johndoe:
+        name: John Doe
+        bio: A Man who travels the world eating noodles
+        external-image: false
+        picture: assets/images/profile.jpg
+        twitter: johndoe
+    jamesfoster:
+        name: James Foster
+        bio: A Man who develops software with coffee
+        external-image: false
+        picture: assets/images/james.jpg
+        twitter: jamesfoster
 
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+# do you want a larger site? change the option below
+# options: [normal, large] | default: normal
+# normal = 560px / large = 810px
+width: large
 
-github_username: xiangguo1992
+# if you don't need pagination, comment the *paginate* configs below
+paginate: 5
+paginate_path: "blog/:num/"
 
-# Build settings
-markdown: kramdown
+# if you don't need projects, comment the *projects* configs below
+projects: true
 
-baidu_analysis: 00e1aa71c45574aa032f22b2b1edfff0
-revolvermaps: 5vfqypkpe9h
+# if you don't need "about" or "blog", comment them out below
+about: true
+blog: true
 
+# do you want to show the "read time" of the posts?
+read-time: true
+
+# do you want to show the "tags" inside the posts?
+show-tags: true
+
+# related posts inside a post?
+related: true
+
+# Display links for next and previous posts for the specified categories
+post-advance-links: [blog]
+
+# show author block at the end of a post ?
+show-author: true
+
+# do you want some animations?
+animation: true
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-admin
+
+jekyll-mentions:
+    base_url: https://github.com
+
+compress_html:
+    ignore:
+        envs:
+        - development
+        - stage
+
+exclude: ["travis.sh", "Rakefile", "README.md", "Gemfile", "Gemfile.lock", "FAQ.md"]
