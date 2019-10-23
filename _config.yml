@@ -13,8 +13,9 @@ picture: assets/images/xiang_profile.jpg
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
-resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-external: false
+# resume-url: https://google.com/?q=my+resume
+
 
 url: https://xiangguo1992.github.io/
 # your url: http://USERNAME.github.io
@@ -77,7 +78,7 @@ paginate: 5
 paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+# projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
@@ -96,7 +97,7 @@ related: true
 post-advance-links: [blog]
 
 # show author block at the end of a post ?
-show-author: true
+show-author: false
 
 # do you want some animations?
 animation: true
