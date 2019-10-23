@@ -14,6 +14,7 @@ picture: assets/images/xiang_profile.jpg
 # and specify source (external or local).
 resume: true
 resume-external: false
+resume-local: assets/Xiang_Guo_CV.pdf
 # resume-url: https://google.com/?q=my+resume
 
 
