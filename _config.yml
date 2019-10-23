@@ -12,10 +12,9 @@ picture: assets/images/xiang_profile.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume-local: true
-# resume-external: false
-resume: assets/Xiang_Guo_CV.pdf
-# resume-url: https://google.com/?q=my+resume
+resume: true
+resume-external: true
+resume-url: https://github.com/XiangGuo1992/My_resume/raw/master/Xiang_Guo_CV.pdf
 
 
 url: https://xiangguo1992.github.io/
